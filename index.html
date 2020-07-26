@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Animations Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div class="heading">
+      <h2>Todo APP</h2>
+    </div>
+    <div class="todo-bar">
+      <input
+        class="todo-input"
+        placeholder="Add todo..."
+        type="text"
+        id="todo-item"
+      />
+      <button class="todoBtn" onclick="addTodo()">
+        <img src="./images/add.png" height="32px" alt="add icon" />
+      </button>
+      <button class="todoBtn" onclick="deleteAll()">
+        <img src="images/criss-cross.png" alt="delet all" height="32px" />
+      </button>
+    </div>
+    <div>
+      <ul class="todo-list" id="list"></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
