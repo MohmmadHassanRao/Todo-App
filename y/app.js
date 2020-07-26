@@ -39,7 +39,7 @@ function deleteTodo(e) {
 
 //Edit Todo
 function editItem(e) {
-  var defaultTodo = e.parentNode.firstChild.nodeValue;
+  var defaultTodo = e.parentNode.textContent;
   var editTodo = prompt("Edit your Todo Item", defaultTodo);
   e.parentNode.firstChild.nodeValue = editTodo;
 }
