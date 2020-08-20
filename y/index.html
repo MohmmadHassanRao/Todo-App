@@ -10,6 +10,23 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
     />
     <title>Todo App</title>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCNRV4JMQYyHG3nJ7PLmynSkyT8W74ZHvc",
+        authDomain: "todo-app-bb1c9.firebaseapp.com",
+        databaseURL: "https://todo-app-bb1c9.firebaseio.com",
+        projectId: "todo-app-bb1c9",
+        storageBucket: "todo-app-bb1c9.appspot.com",
+        messagingSenderId: "477034724514",
+        appId: "1:477034724514:web:b30b978bbfde392f836bfb",
+        measurementId: "G-KTW6FJVM25",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
   </head>
   <body>
     <div class="heading">
